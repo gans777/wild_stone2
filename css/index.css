@@ -1,0 +1,146 @@
+/* главная страница */
+body {
+	font-family: 'Montserrat', sans-serif;/* может поменть еще шрифт */
+	 background-color: #916c40;
+	 
+ background-image: url('../for_logo/photo_2019-07-04_22-36-51.jpg');
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+ 
+  background-position: top;
+/*
+     -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  
+*/
+}
+
+.wrap_container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+}
+.container {
+ max-width: 800px;
+  margin: 20px;
+}
+
+.wrap_h1 {
+	background: rgba(63, 71, 50, 0.3);
+	border-radius: 17px;
+}
+h1 {
+	color:white;
+	text-align: center;
+
+}
+nav {
+	width: 100%;
+	text-align: left;
+	margin-top: 15px;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.logo{
+	width: 100%;
+	height: 100px;
+margin: 0px;
+
+background:  url(../for_logo/fon_but_stenka_mtlkii_krupnii.jpg) no-repeat;
+background-size: 100%;
+font-weight: bold;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
+justify-content: center;
+font-size: 55px;
+flex-direction: column;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.logo_a {
+	text-decoration: none;
+	color:rgba(230, 183, 76, 0.9);
+	 background: linear-gradient(45deg, #fff 33%, #e6b74c 66%, #ffffff);
+	 background-position: -7em 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: background 2s infinite alternate;
+  }
+  
+@keyframes background {
+  100% {
+    background-position: 10em 0%;
+  }
+}
+  
+
+/*
+.header_fon {
+	width: 100%;
+	background:  url(../for_logo/fon_but_stenka_mtlkii_krupnii.jpg) no-repeat;
+    background-size: 100%;
+    border: 1px solid red;
+}
+*/
+header{
+	
+}
+
+	
+
+
+.masters_phone {
+	background-color: rgba(230, 183, 76, 0.7);
+	padding: 10px;
+	color:white;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
+	line-height: 0.9em;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.inside_masters_phone{
+	margin-bottom: 9px;
+}
+.center_advertisement{
+	
+	background-color: rgba(230, 183, 76, 0.7);
+	border-radius: 7px;
+	margin-bottom: 22px;
+	
+}
+.one_thumb {
+	background-color:#d3b37a;
+	border-radius: 10px;
+	text-align: center;
+}
+.one_thumb a {
+color:#59594f;
+}
+.one_thumb img {
+	border-radius: 5px;
+}
+.gal_name {
+	padding:5px;
+}
+
+@media screen and (max-width: 500px) {
+	.logo{
+		font-size:40px;
+	}
+}
