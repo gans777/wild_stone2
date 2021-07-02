@@ -152,11 +152,41 @@ cursor: pointer;
 	font-size: 1em;
 }
 
+.one_thumb {
+	background-color:#d3b37a;
+	border-radius: 10px;
+	text-align: center;
+}
+.one_thumb a {
+color:#59594f;
+}
+.one_thumb img {
+	border-radius: 5px;
+	
+}
+.gal_name {
+	padding:5px;
+}
 
+
+@media screen and (max-width: 992px){
+	.one_thumb img {
+		width: 90%;
+	}
+	.card-columns {
+		column-count: 2;
+	}
+}
 @media screen and (max-width: 610px) {
 	.header {
 		-webkit-height: 311px;
 		-moz-height: 311px;
 		height: 311px;
+	}
+	.one_thumb img {
+		width: auto;
+	}
+	.card-columns {
+		column-count: 1;
 	}
 }
