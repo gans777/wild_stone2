@@ -1,20 +1,30 @@
 
 body {
  background-color: #d3b37a;
+ color: #ffffff;
+}
+.wrap_container{
+	width: 100%;
+	background-color: #d3b37a;
  background-image: url('../for_logo/photo_2019-07-04_22-36-51.jpg');
  /* background-size: 100% 100%; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
   color: #ffffff;
+
+}
+h1 {
+	display: flex;
+  justify-content: center;
 }
 .border {
 	border:2px solid #ccc;
 	background-color: #777;
-	padding-top: 20px;
+	
 }
 .header {
-	height: 237px;
+	/*height: 137px;*/
 	background-image: url('../for_logo/photo_2019-07-04_22-36-51.jpg');
 	 background-repeat: no-repeat;
   background-attachment: fixed;
@@ -151,9 +161,12 @@ cursor: pointer;
 	color:black;
 	font-size: 1em;
 }
-
+/* нижняя часть */
+.page_footconst {
+	padding-top: 15px;
+}
 .one_thumb {
-	background-color:#d3b37a;
+	background-color:#e6b74c;
 	border-radius: 10px;
 	text-align: center;
 }
@@ -162,10 +175,16 @@ color:#59594f;
 }
 .one_thumb img {
 	border-radius: 5px;
+	padding-top: 5px;
 	
 }
 .gal_name {
 	padding:5px;
+}
+.footer {
+	min-height: 50px;
+	background-color: #999996;
+	color: #d3b37a;
 }
 
 
